@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important;
+}
+#navbarcontent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+
+
+}
+#navbarcontent a:hover{
+    border-bottom: 2px solid #29f700;
+    transition: .5s;
+}
+/* ================================hero section start ========================== */
+     section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home {
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.4)), url(https://t3.ftcdn.net/jpg/09/93/30/42/360_F_993304252_O2IJxntVETePgHQcX9dXxrnryWJ4FM1D.jpg);
+    
+
+    background-size: cover;
+    background-position: center;
+
+}  
+#home .input-group{
+    width: 40%;
+    height: 45px;
+} 
+/* ==========================hero section end ======================= */
+
+
+
+/* ==========================product section start====================== */
+
+
+#product{
+    background: #e5e5e5;
+   
+}
+
+ .card{
+    
+    background: #e5e5e5 !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+                 inset 4px 4px 10px white;
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3);
+                inset: -4px -4px 10px white; 
+    transition: .2s;            
+}
+
+/* -----------------------product end---------------- */
+
